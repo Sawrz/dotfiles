@@ -70,7 +70,7 @@ ZSH_THEME="fwalch"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(aliases thefuck git terraform docker pipenv vscode)
+plugins=(aliases docker git pipenv sublime terraform thefuck vscode)
 
 source $ZSH/oh-my-zsh.sh
 
