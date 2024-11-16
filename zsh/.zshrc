@@ -70,7 +70,7 @@ ZSH_THEME="fwalch"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(aliases docker git pipenv sublime terraform thefuck vscode)
+plugins=(aliases docker git pipenv sublime sublime-merge terraform thefuck)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,6 +99,34 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ls="lsd"
+alias grep="rg"
 
 # # Add Visual Studio Code (code)
+
+# file: .zshrc
+# rosetta terminal setup
+if [ $(arch) = "i386" ]; then
+    alias python="/usr/local/bin/python3.10"
+    alias brew86='/usr/local/bin/brew'
+    alias pyenv86="arch -x86_64 pyenv"
+    alias func="/usr/local/Cellar/azure-functions-core-tools@4/4.0.5312/func"
+fi
 # export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/s.wrzalek/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/s.wrzalek/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/s.wrzalek/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/s.wrzalek/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+source ~/.config/op/plugins.sh
