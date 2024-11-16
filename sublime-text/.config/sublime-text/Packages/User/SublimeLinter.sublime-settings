@@ -1,0 +1,27 @@
+// SublimeLinter Settings - User
+{
+    "gutter_theme": "Default",
+
+    "linters": {
+        "flake8": {
+            "args": ["--max-line-length=120"],
+            "styles": [
+                {
+                    "mark_style": "outline",
+                    "scope": "region.yellowish",
+                    "types": ["warning"]
+                },
+                {
+                    "mark_style": "outline",
+                    "scope": "region.redish",
+                    "types": ["error"]
+                }
+            ],
+            "executable": "/bin/flake8",
+        },
+        "mdl": {
+            "args": "-s ~/.config/markdownlint/hugo.rb",
+            "executable": "~/.gem/ruby/2.7.0/bin/mdl",
+        },
+    }
+}

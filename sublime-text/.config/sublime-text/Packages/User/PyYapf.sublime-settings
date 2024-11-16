@@ -1,0 +1,12 @@
+{
+	"on_save": false,
+	"yapf_command": "/bin/yapf",
+
+    "config": {
+            // Determines which of the predefined styles this custom style is based on.
+            "based_on_style": "pep8",
+
+            // The column limit.
+            "COLUMN_LIMIT": 120,
+    }
+}

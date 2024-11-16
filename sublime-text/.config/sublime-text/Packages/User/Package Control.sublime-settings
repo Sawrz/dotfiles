@@ -1,0 +1,20 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"Anaconda",
+		"ayu",
+		"Package Control",
+		"PyYapf Python Formatter",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SublimeLinter-mdl",
+		"Terminal",
+	],
+	"submit_usage": true,
+}

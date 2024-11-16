@@ -1,0 +1,286 @@
+#################################################################
+# KEYBOARD BINDINGS FOR ANY TWM
+#################################################################
+
+#################################################################
+# SUPER + FUNCTION KEYS
+#################################################################
+
+#Thunar
+super + F1
+    thunar
+
+# Neovide
+super + F2
+	neovide
+
+# Sublime Text
+super + F3
+	subl
+
+# Sublime Merge
+super + F4
+    smerge
+
+#Inkscape
+super + F5
+    inkscape
+
+#Gimp
+super + F6
+    gimp
+
+#Kdenlive
+super + F7
+    kdenlive
+
+#KeepassXC
+super + F8
+    keepassxc
+
+#Firefox
+super + F9
+    firefox
+
+#Joplin
+super + F10
+    joplin-desktop
+
+#Telegram
+super + F11
+    telegram-desktop
+
+#Evolution
+super + F12
+    evolution
+
+#################################################################
+# SUPER + ... KEYS
+#################################################################
+
+#Editor
+super + e
+    subl
+
+#Browser
+super + w
+    firefox
+
+#Conky-toggle
+super + c
+    conky-toggle
+
+#Htop
+#super + h
+#    alacritty 'htop task manager' -e htop
+
+#arcolinux-logout
+super + x
+    arcolinux-logout
+
+#Rofi
+super + space
+    rofi -show run
+
+super + r
+    rofi-theme-selector
+
+#Terminal
+super + t
+    alacritty
+
+super + Return
+    alacritty
+
+#Pavucontrol
+super + v
+    pavucontrol
+
+#Xkill
+super + Escape
+    xkill
+
+#################################################################
+# SUPER + SHIFT KEYS
+#################################################################
+
+#File-Manager
+super + shift + Return
+	thunar
+
+#reload sxhkd:
+super + shift + s
+	pkill -USR1 -x sxhkd
+
+#################################################################
+# CONTROL + ALT KEYS
+#################################################################
+
+#arcolinux-welcome-app
+ctrl + alt + w
+     arcolinux-welcome-app
+
+#arcolinux-tweak-tool
+ctrl + alt + e
+    arcolinux-tweak-tool
+
+#conky-rotate
+ctrl + alt + Next
+     conky-rotate -n
+
+#conky-rotate
+ctrl + alt + Prior
+    conky-rotate -p
+
+#File-Manager
+ctrl + alt + b
+     thunar
+
+#Chromium
+ctrl + alt + g
+    chromium -no-default-browser-check
+
+#Firefox
+ctrl + alt + f
+     firefox
+
+#Nitrogen
+ctrl + alt + i
+     nitrogen
+
+#arcolinux-logout
+ctrl + alt + k
+     arcolinux-logout
+
+#arcolinux-lock
+ctrl + alt + j
+    betterlockscreen -l
+
+#schutdown
+ctrl + alt + s
+    shutdown now
+
+#Pamac-manager
+ctrl + alt + p
+    pamac-manager
+
+#Xfce4-settings-manager
+ctrl + alt + m
+     xfce4-settings-manager
+
+#Pulse Audio Control
+ctrl + alt + u
+     pavucontrol
+
+#Rofi theme selector
+ctrl + alt + r
+  rofi-theme-selector
+
+# Terminal
+ctrl + alt + Return
+    alacritty
+
+ctrl + alt + t
+    alacritty
+
+#Xfce4-appfinder
+ctrl + alt + a
+    xfce4-appfinder
+
+
+#################################################################
+# ALT + ... KEYS
+#################################################################
+
+#Xfce4-appfinder
+alt + F2
+    xfce4-appfinder --collapsed
+
+#Xfce4-appfinder
+alt + F3
+    xfce4-appfinder
+
+
+#################################################################
+# CONTROL + SHIFT KEYS
+#################################################################
+
+#Xcfe4-TaskManager
+ctrl + shift + Escape
+    xfce4-taskmanager
+
+
+#################################################################
+#     SCREENSHOTS
+#################################################################
+
+#Scrot
+Print
+    scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+
+#screeenshooter
+ctrl + Print
+     xfce4-screenshooter
+
+#Gnome-Screenshot
+ctrl + shift + Print
+     gnome-screenshot -i
+
+
+#################################################################
+#     FUNCTION KEYS
+#################################################################
+
+#xfce4-terminal dropdown
+F12
+    xfce4-terminal --drop-down
+
+
+#################################################################
+#     MULTIMEDIA KEYS
+#################################################################
+
+#Raises volume
+XF86AudioRaiseVolume
+    amixer set Master 5%+
+
+#Lowers volume
+XF86AudioLowerVolume
+    amixer set Master 5%-
+
+#Mute
+XF86AudioMute
+    amixer -D pulse set Master 1+ toggle
+
+#Playerctl works for Pragha, Spotify and others
+#Delete the line for playerctl if you want to use mpc
+#and replace it with the corresponding code
+#mpc works for e.g.ncmpcpp
+#mpc toggle
+#mpc next
+#mpc prev
+#mpc stop
+
+#PLAY
+XF86AudioPlay
+    playerctl play-pause
+
+#Next
+XF86AudioNext
+    playerctl next
+
+#previous
+XF86AudioPrev
+    playerctl previous
+
+#Stop
+XF86AudioStop
+    playerctl stop
+
+#Brightness up
+XF86MonBrightnessUp
+    xbacklight -inc 10
+
+#Brightness down
+XF86MonBrightnessDown
+    xbacklight -dec 10

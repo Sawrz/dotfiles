@@ -1,0 +1,7 @@
+{
+    "display_signatures": false,
+    "python_interpreter": "python3",
+
+    "auto_formatting": false,
+    "anaconda_linting": false,
+}

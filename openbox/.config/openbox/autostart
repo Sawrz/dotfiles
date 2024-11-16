@@ -1,0 +1,17 @@
+# lxsession &
+numlockx &
+nitrogen --restore &
+dunst &
+picom &
+xautolock -time 10 -locker 'multimonitorlock -l' &
+
+# Set tint2 panels
+tint2 -c ~/.config/tint2/left_monitor.tint2rc &
+tint2 -c ~/.config/tint2/middle_monitor.tint2rc &
+tint2 -c ~/.config/tint2/right_monitor.tint2rc &
+
+# Set Programs
+nm-applet &
+nextcloud &
+flameshot &
+keepassxc &

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="OpenBox 3">
+		<menu id="1" label="Development Tools">
+			<item label="Neovim">
+				<action name="Execute">
+					<execute>alacritty -e nvim</execute>
+				</action>
+			</item>
+			<item label="Sublime Text">
+				<action name="Execute">
+					<execute>/opt/sublime_text/sublime_text</execute>
+				</action>
+			</item>
+			<item label="Sublime Merge">
+				<action name="Execute">
+					<execute>/opt/sublime_merge/sublime_merge</execute>
+				</action>
+			</item>
+			<item label="Text Editor">
+				<action name="Execute">
+					<execute>xed</execute>
+				</action>
+			</item>
+			<item label="Python">
+				<action name="Execute">
+					<execute>alacritty -e python</execute>
+				</action>
+			</item>
+			<item label="IDLE (Python IDE)">
+				<action name="Execute">
+					<execute>idle</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="18" label="Games">
+			<item label="Academia : School Simulator">
+				<action name="Execute">
+					<execute>steam steam://rungameid/672630</execute>
+				</action>
+			</item>
+			<item label="Assassin's Creed Odyssey">
+				<action name="Execute">
+					<execute>steam steam://rungameid/812140</execute>
+				</action>
+			</item>
+			<item label="Assassin's Creed Origins">
+				<action name="Execute">
+					<execute>steam steam://rungameid/582160</execute>
+				</action>
+			</item>
+			<item label="Assassin's Creed Rogue">
+				<action name="Execute">
+					<execute>steam steam://rungameid/311560</execute>
+				</action>
+			</item>
+			<item label="Assassin's Creed Syndicate">
+				<action name="Execute">
+					<execute>steam steam://rungameid/368500</execute>
+				</action>
+			</item>
+			<item label="Assassin's Creed Unity">
+				<action name="Execute">
+					<execute>steam steam://rungameid/289650</execute>
+				</action>
+			</item>
+			<item label="Cities: Skylines">
+				<action name="Execute">
+					<execute>steam steam://rungameid/255710</execute>
+				</action>
+			</item>
+			<item label="Crusader Kings III">
+				<action name="Execute">
+					<execute>steam steam://rungameid/1158310</execute>
+				</action>
+			</item>
+			<item label="Divinity: Original Sin Enhanced Edition">
+				<action name="Execute">
+					<execute>steam steam://rungameid/373420</execute>
+				</action>
+			</item>
+			<item label="Grand Theft Auto V">
+				<action name="Execute">
+					<execute>steam steam://rungameid/271590</execute>
+				</action>
+			</item>
+			<item label="Kenshi">
+				<action name="Execute">
+					<execute>steam steam://rungameid/233860</execute>
+				</action>
+			</item>
+			<item label="Mount &amp; Blade II: Bannerlord">
+				<action name="Execute">
+					<execute>steam steam://rungameid/261550</execute>
+				</action>
+			</item>
+			<item label="Prison Architect">
+				<action name="Execute">
+					<execute>steam steam://rungameid/233450</execute>
+				</action>
+			</item>
+			<item label="Project Highrise">
+				<action name="Execute">
+					<execute>steam steam://rungameid/423580</execute>
+				</action>
+			</item>
+			<item label="Project Hospital">
+				<action name="Execute">
+					<execute>steam steam://rungameid/868360</execute>
+				</action>
+			</item>
+			<item label="RimWorld">
+				<action name="Execute">
+					<execute>steam steam://rungameid/294100</execute>
+				</action>
+			</item>
+			<item label="SimAirport">
+				<action name="Execute">
+					<execute>steam steam://rungameid/598330</execute>
+				</action>
+			</item>
+			<item label="Software Inc.">
+				<action name="Execute">
+					<execute>steam steam://rungameid/362620</execute>
+				</action>
+			</item>
+			<item label="Stardew Valley">
+				<action name="Execute">
+					<execute>steam steam://rungameid/413150</execute>
+				</action>
+			</item>
+			<item label="Startup Company">
+				<action name="Execute">
+					<execute>steam steam://rungameid/606800</execute>
+				</action>
+			</item>
+			<item label="The Elder Scrolls V: Skyrim Special Edition">
+				<action name="Execute">
+					<execute>steam steam://rungameid/489830</execute>
+				</action>
+			</item>
+			<item label="The Guild 3">
+				<action name="Execute">
+					<execute>steam steam://rungameid/311260</execute>
+				</action>
+			</item>
+			<item label="Total War: WARHAMMER">
+				<action name="Execute">
+					<execute>steam steam://rungameid/364360</execute>
+				</action>
+			</item>
+			<item label="Tropico 5">
+				<action name="Execute">
+					<execute>steam steam://rungameid/245620</execute>
+				</action>
+			</item>
+			<item label="Watch_Dogs 2">
+				<action name="Execute">
+					<execute>steam steam://rungameid/447040</execute>
+				</action>
+			</item>
+			<item label="Yakuza: Like a Dragon">
+				<action name="Execute">
+					<execute>steam steam://rungameid/1235140</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="6" label="Graphics">
+			<item label="GNU Image Manipulation Program">
+				<action name="Execute">
+					<execute>gimp</execute>
+				</action>
+			</item>
+			<item label="Inkscape">
+				<action name="Execute">
+					<execute>inkscape</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Draw">
+				<action name="Execute">
+					<execute>libreoffice --draw</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="7" label="Multimedia">
+			<item label="VLC media player">
+				<action name="Execute">
+					<execute>vlc</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="5" label="Network">
+			<item label="FireFox">
+				<action name="Execute">
+					<execute>firefox</execute>
+				</action>
+			</item>
+			<item label="LibreWolf">
+				<action name="Execute">
+					<execute>/usr/lib/librewolf/librewolf</execute>
+				</action>
+			</item>
+			<item label="qutebrowser">
+				<action name="Execute">
+					<execute>qutebrowser</execute>
+				</action>
+			</item>
+			<item label="Telegram Desktop">
+				<action name="Execute">
+					<execute>telegram-desktop</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="3" label="Office">
+			<item label="LibreOffice Calc">
+				<action name="Execute">
+					<execute>libreoffice --calc</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Impress">
+				<action name="Execute">
+					<execute>libreoffice</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Impress">
+				<action name="Execute">
+					<execute>libreoffice --impress</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Math">
+				<action name="Execute">
+					<execute>libreoffice --math</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Writer">
+				<action name="Execute">
+					<execute>libreoffice --writer</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="39" label="Benchmarks">
+			<item label="Hardware Info">
+				<action name="Execute">
+					<execute>hardinfo</execute>
+				</action>
+			</item>
+			<item label="Superposition Benchmark">
+				<action name="Execute">
+					<execute>unigine-superposition</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="19" label="Shells">
+			<item label="Alacritty">
+				<action name="Execute">
+					<execute>alacritty</execute>
+				</action>
+			</item>
+			<item label="File Manager PCManFM">
+				<action name="Execute">
+					<execute>pcmanfm</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="37" label="System">
+			<menu id="36" label="Settings">
+				<item label="Customize Look and Feel">
+					<action name="Execute">
+						<execute>lxappearance</execute>
+					</action>
+				</item>
+				<item label="Desktop Session Settings">
+					<action name="Execute">
+						<execute>lxsession-edit</execute>
+					</action>
+				</item>
+				<item label="Manage Printing">
+					<action name="Execute">
+						<execute>xdg-open http://localhost:631/</execute>
+					</action>
+				</item>
+				<item label="nitrogen">
+					<action name="Execute">
+						<execute>nitrogen</execute>
+					</action>
+				</item>
+				<item label="NVIDIA X Server Settings">
+					<action name="Execute">
+						<execute>nvidia-settings</execute>
+					</action>
+				</item>
+				<item label="Openbox Configuration Manager">
+					<action name="Execute">
+						<execute>obconf</execute>
+					</action>
+				</item>
+				<item label="Preferred Applications">
+					<action name="Execute">
+						<execute>libfm-pref-apps</execute>
+					</action>
+				</item>
+				<item label="Print Settings">
+					<action name="Execute">
+						<execute>system-config-printer</execute>
+					</action>
+				</item>
+				<item label="Tint2 Settings">
+					<action name="Execute">
+						<execute>tint2conf</execute>
+					</action>
+				</item>
+			</menu>
+			<item label="Htop">
+				<action name="Execute">
+					<execute>alacritty -e htop</execute>
+				</action>
+			</item>
+			<item label="KeePassXC">
+				<action name="Execute">
+					<execute>keepassxc</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="38" label="Utilities">
+			<item label="GreenWithEnvy">
+				<action name="Execute">
+					<execute>gwe</execute>
+				</action>
+			</item>
+			<item label="Nextcloud desktop sync client">
+				<action name="Execute">
+					<execute>nextcloud</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="40" label="OpenBox">
+			<menu id="client-list-menu"/>
+			<item label="Reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+			<separator/>
+			<item label="Exit">
+				<action name="Exit"/>
+			</item>
+		</menu>
+	</menu>
+</openbox_menu>
