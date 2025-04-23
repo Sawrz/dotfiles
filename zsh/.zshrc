@@ -129,4 +129,13 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-source ~/.config/op/plugins.sh
+# glib
+export PATH="/usr/local/bin:$PATH"
+export PKG_CONFIG_PATH="/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH"
+export DYLD_LIBRARY_PATH="/usr/local/lib:$DYLD_LIBRARY_PATH"
+export DYLD_LIBRARY_PATH=/opt/homebrew/lib:$DYLD_LIBRARY_PATH
+export PKG_CONFIG_PATH=/opt/homebrew/lib/pkgconfig:$PKG_CONFIG_PATH
+
+
+export DOCKER_HOST=unix:///Users/s.wrzalek/.colima/default/docker.sock
+
